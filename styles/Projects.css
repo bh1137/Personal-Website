@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+header, footer, article, aside {
+    border: lpx solid black;
+
+}
+html {       
+        background: url(https://hdqwalls.com/download/abstract-star-nights-time-lapse-45-1366x768.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;   
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin:0;
+}
+
+header
+{
+    text-align: center;
+    height: 80px;
+    background-color: #534f6d;
+}
+header h1{
+    position: fixed;
+    left:10px;
+    top: 15px;
+    margin-top: 0;
+    color: white;
+    font-size:30px;    
+}
+header h2
+{
+    position: fixed;
+    margin-top:0;
+    right:85px;
+    top:24px;
+    color: white;
+    font-size:20px;
+}
+header h3
+{
+    position: fixed;
+    margin-top:0;
+    right: 290px;
+    top:24px;
+    color: white;
+    font-size:20px;
+}
+header h4
+{
+    position: fixed;
+    margin-top:0;
+    right: 500px;
+    top:24px;
+    color: white;
+    font-size:20px;
+}
+
+#portrait{
+    position: fixed;
+    top: 122px;
+}
+
+#portrait2{
+    position: fixed;       
+    top: 480px;
+}
+
+#container {
+    width: 1600px;
+    height: 750px;
+    margin: 0 auto;
+    background-color: #E5E7ED;
+    padding: 15px;
+}
+
+aside{
+    float: left;
+    width: 37%;
+    height: 500px;
+    padding: 1em 0em 0em 1em;
+    margin-bottom: 1em;
+    font-size: 25px;
+}
+
+article
+{
+    float: right;
+    width: 56%;
+    padding: 0em 2em 0em 1em;
+    height: 575px;
+    margin-bottom: 1em;
+    overflow: auto;
+    font-size: 19px;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+}
