@@ -4,19 +4,17 @@ header, footer, article, aside {
     border: lpx solid black;
 
 }
-html {       
-        background: url(https://hdqwalls.com/download/abstract-star-nights-time-lapse-45-1366x768.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;   
-}
 
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.4;
     margin:0;
+    background: url(https://hdqwalls.com/download/abstract-star-nights-time-lapse-45-1366x768.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
 }
 
 header
@@ -62,17 +60,20 @@ header h4
 }
 
 #portrait{
-    position: fixed;
-    left: 75px;
-    top: 124px;
+    float: left;
+    width:50%;
+}
+
+#portrait img{
+    width:100%;
 }
 
 #container {
-    width: 2000px;
-    height: 575px;
+    width: 90vw;
     margin: 0 auto;
     background-color: #E5E7ED;
     padding: 15px;
+    height:600px;
 }
 
 aside{
@@ -89,7 +90,6 @@ article
     float: right;
     width: 45%;
     padding: 0em 2em 0em 1em;
-    height: 500px;
     margin-bottom: 1em;
     overflow: auto;
     font-size: 19px;
