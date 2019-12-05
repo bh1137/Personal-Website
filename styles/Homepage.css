@@ -5,15 +5,14 @@ header, footer, article, aside {
 
 }
 html {       
-        background: url("media/stars.jpg") no-repeat center center fixed; 
+        background: url(https://hdqwalls.com/download/abstract-star-nights-time-lapse-45-1366x768.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;   
 }
 
-
-body{    
+body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.4;
